@@ -6,67 +6,64 @@ td {
     text-align: center;
     vertical-align: middle;
     font-size: 80px;
-    font-family: 'Arial';
+    font-family: "Arial";
     color: #000;
     cursor: pointer;
-}
-table {
+  }
+  table {
     border-collapse: collapse;
     position: relative;
-    background-color: paleturquoise;
-    left: 45%;
+    left: 46%;
     margin-left: -155px;
     top: 50px;
-}
-
-table td:hover {
-    background-color: cadetblue
-}
-
-.header {
+    background-color: paleturquoise;
+  }
+  
+  table td:hover {
+    background-color: cadetblue;
+  }
+  
+  .header {
     position: relative;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100px;
     background-color: black;
     color: aquamarine;
     text-align: center;
     font-size: 50px;
     line-height: 100px;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
-}
-
-button{
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+  
+  button {
     position: relative;
     top: 120px;
     left: 50%;
     transform: translateX(-50%);
-    font-size: 27px;
-    padding: 20;
+    padding: 15;
     margin: auto;
+    font-size: 20px;
+    padding: 10px;
     background-color: black;
     color: aquamarine;
     border-radius: 10px;
     cursor: pointer;
-}
-button:hover{
+  }
+  button:hover {
     background-color: rgb(34, 34, 34);
-    color: aquamarine
-}
-.endGame{
+    color: aquamarine;
+  }
+  .endGame {
     display: none;
     width: 500px;
     height: 150px;
     position: absolute;
     background-color: rgba(0, 0, 0, 0.8);
-    border-radius: 10px;  
-    top: 300px;
+    border-radius: 10px;
+    top: 200px;
     left: 33%;
-}
-.text{
+  }
+  .text {
     color: aquamarine;
     font-size: 100px;
     text-align: center;
     vertical-align: middle;
-}
+  }
