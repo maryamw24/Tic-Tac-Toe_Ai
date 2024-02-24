@@ -1,68 +1,58 @@
-td {
-    padding: 20px;
-    border: 3px solid #000;
+.header{
+    text-align: center;
+    position: relative;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 46px;
+    background-color: black;
+    color: aquamarine;
+  }
+  td {
+    border: 2px solid #333;
     height: 100px;
     width: 100px;
     text-align: center;
     vertical-align: middle;
-    font-size: 80px;
-    font-family: "Arial";
-    color: #000;
+    font-family: "Anta", sans-serif;
+    font-size: 70px;
     cursor: pointer;
   }
+  
   table {
     border-collapse: collapse;
     position: relative;
-    left: 46%;
+    background-color: aquamarine;
+    left: 50%;
     margin-left: -155px;
-    top: 30px;
-    background-color: paleturquoise;
-  }
-  
-  table td:hover {
-    background-color: cadetblue;
-  }
-  
-  .header {
-    position: relative;
-    background-color: black;
-    color: aquamarine;
-    text-align: center;
-    font-size: 50px;
-    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    top: 50px;
   }
   
   button {
     position: relative;
-    top: 50px;
+    top: 120px;
     left: 50%;
     transform: translateX(-50%);
+    font-size: 30px;
     padding: 15;
     margin: auto;
-    font-size: 30px;
-    padding: 10px;
     background-color: black;
     color: aquamarine;
     border-radius: 10px;
     cursor: pointer;
+    font-family: "Anta", sans-serif;
   }
-  button:hover {
-    background-color: rgb(34, 34, 34);
-    color: aquamarine;
-  }
+  
   .endGame {
     display: none;
-    width: 500px;
-    height: 150px;
-    position: absolute;
+    width: 400px;
+    top: 235px;
     background-color: rgba(0, 0, 0, 0.8);
-    border-radius: 10px;
-    top: 200px;
-    left: 33%;
-  }
-  .text {
-    color: aquamarine;
-    font-size: 100px;
+    position: absolute;
+    left: 44%;
+    margin-left: -100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     text-align: center;
-    vertical-align: middle;
+    border-radius: 10px;
+    color: aquamarine;
+    font-size: 2em;
   }
