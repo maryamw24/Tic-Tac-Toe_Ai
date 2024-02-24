@@ -13,9 +13,10 @@ td {
 table {
     border-collapse: collapse;
     position: relative;
-    top: 120px;
     background-color: paleturquoise;
-    left: 35%;
+    left: 45%;
+    margin-left: -155px;
+    top: 50px;
 }
 
 table td:hover {
@@ -38,12 +39,14 @@ table td:hover {
 
 button{
     position: relative;
-    left: 45%;
-    top: 80%;
-    font-size: 20px;
-    padding: 10px;
+    top: 120px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 27px;
+    padding: 20;
+    margin: auto;
     background-color: black;
-    color:aquamarine;
+    color: aquamarine;
     border-radius: 10px;
     cursor: pointer;
 }
@@ -58,7 +61,7 @@ button:hover{
     position: absolute;
     background-color: rgba(0, 0, 0, 0.8);
     border-radius: 10px;  
-    top: 200px;
+    top: 300px;
     left: 33%;
 }
 .text{
